@@ -22,7 +22,18 @@
 		    <!-- Primary Meta Tags -->
             <title>Multimusen.dk - tips, tricks & tutorials</title>
             <meta name="title" content="Multimusen.dk - tips, tricks & tutorials">
-            <meta name="description" content="Here you find high quality tutorials about web development about WordPress and UX for Multimedia Designers. By Per Thykjaer Jensen, MA.">
+            <!-- more dynamic version of description -->
+            
+            <!-- meta name="description" content="Here you find high quality tutorials about web development about WordPress and UX for Multimedia Designers. By Per Thykjaer Jensen, MA." -->
+            
+            <meta name="description" content="<?php if ( is_single() ) {
+					single_post_title('', true); 
+				} else {
+					bloginfo('name'); echo " - "; bloginfo('description');
+				}
+				?>" />
+            
+            
             <meta name="author" content="Per Thykjaer Jensen">
             
             <!-- Open Graph / Facebook -->
