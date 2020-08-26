@@ -20,7 +20,10 @@
 		
 		<!-- SEO tags / petj -->
 		    <!-- Primary Meta Tags -->
-            <title>Multimusen.dk - tips, tricks & tutorials</title>
+		
+	    <!-- WP will generate the title tag, so don't write it here -->
+            <!-- title>Multimusen.dk - tips, tricks & tutorials</title -->
+		
             <meta name="title" content="Multimusen.dk - tips, tricks & tutorials">
             <!-- more dynamic version of description -->
             
