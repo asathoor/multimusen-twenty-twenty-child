@@ -10,4 +10,8 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  Pers2020Child
 */
 
-/* Write here your own personal stylesheet */
+/* styles for: front-page.php */
+main {
+    padding: 4rem;
+    background-color: cyan;
+}

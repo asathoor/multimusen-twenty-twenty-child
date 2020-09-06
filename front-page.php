@@ -12,12 +12,12 @@ get_header();
 
 <!-- main id="site-content" role="main" -->
 
-	
+<main>
 
-        <h1> TEST:  </h1>
-        <h2>front-page.php</h2>
+        <h1> File: front-page.php </h1>
+        <h2> Demonstration of static HTML in WordPress as your "home" or "front page".</h2>
         
-        <p>In Settings / Reading : set a static front page.</p>
+        <p>If your child theme has a file named <em>front-page.php</em>, then the content of that file will be your frontpage. In this way you can design a smashing splash page.</p>
 
 	    <p>A static front page, featuring:</p>
 	    <ul>
@@ -49,6 +49,8 @@ Well, the way they make shows is, they make one show. That show's called a pilot
 
 <!-- /main --><!-- #site-content -->
 
+</main>	    
+    
 <?php 
 
 // don't display the widgets:
