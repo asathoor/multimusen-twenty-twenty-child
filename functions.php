@@ -41,6 +41,4 @@ function petj_register_template() {
 add_action( 'init', 'petj_register_template' );
 
 
-// experiment
-
 

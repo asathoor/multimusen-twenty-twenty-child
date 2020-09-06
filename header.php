@@ -19,40 +19,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 		
 		<!-- SEO tags / petj -->
-		    <!-- Primary Meta Tags -->
-		
-	    <!-- WP will generate the title tag, so don't write it here -->
-            <!-- title>Multimusen.dk - tips, tricks & tutorials</title -->
+        <!-- WP will generate the title tag, so don't write it here -->
+        <!-- title>Multimusen.dk - tips, tricks & tutorials</title -->
 		
             <meta name="title" content="Multimusen.dk - tips, tricks & tutorials">
-            <!-- more dynamic version of description -->
-            
-            <!-- meta name="description" content="Here you find high quality tutorials about web development about WordPress and UX for Multimedia Designers. By Per Thykjaer Jensen, MA." -->
-            
             <meta name="description" content="<?php if ( is_single() ) {
 					single_post_title('', true); 
 				} else {
 					bloginfo('name'); echo " - "; bloginfo('description');
 				}
 				?>" />
-            
-            
+                
             <meta name="author" content="Per Thykjaer Jensen">
             
-            <!-- Open Graph / Facebook -->
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="https://metatags.io/">
-            <meta property="og:title" content="Multimusen.dk - tips, tricks & tutorials">
-            <meta property="og:description" content="Here you find high quality tutorials about web development about WordPress and UX for Multimedia Designers. By Per Thykjaer Jensen, MA.">
-            <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-            
-            <!-- Twitter -->
-            <meta property="twitter:card" content="summary_large_image">
-            <meta property="twitter:url" content="https://metatags.io/">
-            <meta property="twitter:title" content="Multimusen.dk - tips, tricks & tutorials">
-            <meta property="twitter:description" content="Here you find high quality tutorials about web development about WordPress and UX for Multimedia Designers. By Per Thykjaer Jensen, MA.">
-            <meta property="twitter:image" content="https://multimusen.dk/wp-content/uploads/multimusen_150.png">
-<!-- /SEO tags -->
+        <!-- /SEO tags -->
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
