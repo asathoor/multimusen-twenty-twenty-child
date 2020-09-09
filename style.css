@@ -11,13 +11,8 @@ Text Domain:  Pers2020Child
 */
 
 /* styles for: front-page.php */
-main {
+main #frontPage {
     padding: 4rem;
-    background-color: #000;
-}
-
-.YT-video {
-    max-height: 50%wh;
-    max-width: auto;
+	background-color: #000;
 }
 
