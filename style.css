@@ -16,3 +16,31 @@ main #frontPage {
 	background-color: #000;
 }
 
+/* entry title google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap');
+
+.entry-title, h1, h2, h3 {
+	font-family: 'Dancing Script', cursive;
+}
+
+/* additional: front-page.php */
+@media screen and (min-width: 801px) {
+#fpWidgets {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  padding: 2rem;
+}
+.fpwidget {
+  padding: 2rem;
+}
+
+}
+
+/* responsive styles */
+@media screen and (max-width: 800px) {
+
+	#fpWidgets {
+  grid-template-columns: 100%;
+	}
+
+}

@@ -14,14 +14,6 @@ get_header();
 
 <main id="site-content" role="main">
 
-	<section id="fpWidgets">
-
-		<?php dynamic_sidebar('fpwidget-1'); ?>
-		<?php dynamic_sidebar('fpwidget-2'); ?>
-		<?php dynamic_sidebar('fpwidget-3'); ?>
-
-	</section><!-- #fpWidgets -->
-
 	<?php
 
 	if ( have_posts() ) {
@@ -34,6 +26,14 @@ get_header();
 	}
 
 	?>
+
+	<section id="fpWidgets">
+
+		<?php dynamic_sidebar('fpwidget-1'); ?>
+		<?php dynamic_sidebar('fpwidget-2'); ?>
+		<?php dynamic_sidebar('fpwidget-3'); ?>
+
+	</section><!-- #fpWidgets -->
 
 </main><!-- #site-content -->
 
