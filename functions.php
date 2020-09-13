@@ -46,6 +46,7 @@ add_action( 'init', 'petj_register_template' );
 add_action( 'widgets_init', 'petj_frontPage_widgets' ); // add the widget
 
 function petj_frontPage_widgets() {
+	
     register_sidebar( array(
         'name'          => __( 'Frontpage Widget 1' ),
         'id'            => 'fpwidget-1',
@@ -73,4 +74,3 @@ function petj_frontPage_widgets() {
         'after_title'   => '</h3>',
     ) );
 }
-
