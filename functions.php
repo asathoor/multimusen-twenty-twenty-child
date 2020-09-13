@@ -41,4 +41,36 @@ function petj_register_template() {
 add_action( 'init', 'petj_register_template' );
 
 
+/* Add extra widget areas to the front page */
+
+add_action( 'widgets_init', 'petj_frontPage_widgets' ); // add the widget
+
+function petj_frontPage_widgets() {
+    register_sidebar( array(
+        'name'          => __( 'Frontpage Widget 1' ),
+        'id'            => 'fpwidget-1',
+        'before_widget' => '<div class="fpwidget-1">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+
+	register_sidebar( array(
+        'name'          => __( 'Frontpage Widget 2' ),
+        'id'            => 'fpwidget-2',
+        'before_widget' => '<div class="fpwidget-2">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+	
+	register_sidebar( array(
+        'name'          => __( 'Frontpage Widget 3' ),
+        'id'            => 'fpwidget-3',
+        'before_widget' => '<div class="fpwidget-3">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+}
 
